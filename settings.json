@@ -1,0 +1,8 @@
+{
+    "name": "Spacebits",
+    "creator": "Yaron and Colin",
+    "creator_url": "http://spacebits.co",
+     "content_types": {
+        "blogpost": "Space Bit"
+    }
+}

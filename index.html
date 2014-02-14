@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<!-- @include _head -->
+	<title>Spacebits - A few bits on Space.</title>
+</head>
+<body id="home">
+	
+	<div class="page">
+		<!-- @include _navigation -->
+
+		<!-- repeat:blogpost:1 -->
+		%MASTHEAD%
+		<div class="container clearfix">
+			<div class="grid-3 no-bottom-margin center-text">
+				<h1 class=""><a href="%URL%">%TITLE%</a></h1>
+				<p class="grey small">Written by %AUTHOR% <span class="dot">&middot;</span> %PUBLISHED_ON%</p>
+				<div class="stars-divider"><span class="ss-icon star">star</span> <span class="ss-icon star">star</span> <span class="ss-icon star">star</span></div>
+			</div>
+		</div>
+		<!-- endrepeat -->
+
+		<!-- repeat:blogpost:10:2 -->
+		<div class="container clearfix">
+			<div class="grid-3 no-bottom-margin center-text">
+				<h1 class=""><a href="%URL%">%TITLE%</a></h1>
+				<p class="grey small">Written by %AUTHOR% <span class="dot">&middot;</span> %PUBLISHED_ON%</p>
+				<div class="stars-divider"><span class="ss-icon star">star</span> <span class="ss-icon star">star</span> <span class="ss-icon star">star</span></div>
+			</div>
+		</div>
+		<!-- endrepeat -->
+
+	</div>
+
+	<!-- @include _footer -->
+
+</body>
+</html>
