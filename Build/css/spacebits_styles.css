@@ -1,0 +1,24 @@
+/*
+Theme Name: SpaceBits
+Theme URL: http://spacebits.co
+Author: Yaron Schoen & Colin Devroe
+Author URL: http://spacebits.co
+*/
+
+/* This Extends styles.css */
+
+blockquote { padding-left: 1em; margin-bottom: 1em; border-left: 4px solid #e8e8e8; font-style: italic;  }
+.more-articles-content a { color: #fff; }
+.article .articlebody { overflow: visible !important; } 
+	.article .articlebody p img.full { }
+	
+	.article .articlebody p img.two { }
+	.article .articlebody p img.two:nth-child(1) { float: left; }
+	.article .articlebody p img.two:nth-child(2) { float: right; }
+
+	.article .articlebody p img.three { }
+	.article .articlebody p img.three:nth-child(1) { float: left; }
+	.article .articlebody p img.three:nth-child(2) { float: left; }
+	.article .articlebody p img.three:nth-child(3) { float: right; }
+
+	.article .articlebody p { clear: both; }
