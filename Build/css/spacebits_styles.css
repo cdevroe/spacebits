@@ -22,3 +22,5 @@ blockquote { padding-left: 1em; margin-bottom: 1.2em; border-left: 4px solid #e8
 	.article .articlebody p img.three:nth-child(3) { float: right; }
 
 	.article .articlebody p { clear: both; }
+
+	.article .articlebody ul { margin-bottom: 1.2em; }
