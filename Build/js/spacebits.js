@@ -14,6 +14,19 @@ $( document ).ready(function(){
 		}
 		$(this).hide();
 	});
+
+	$('.article .articlebody p img.fullimage').each(function(){
+		if (!$(this).parent().hasClass('removewidth')) {
+			$(this).parent().addClass('removewidth');
+		}
+	});
+
+	$('.article .articlebody p img.leftimage').each(function(){
+		if (!$(this).parent().hasClass('removewidth')) {
+			$(this).parent().addClass('removewidth');
+		}
+	});
+
 	/*if (typeof barley.vars.domain_token !== undefined) {} else {
 		var article_width = $('.article').outerWidth();
 

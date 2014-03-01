@@ -10,17 +10,17 @@ Author URL: http://spacebits.co
 blockquote { padding-left: 1em; margin-bottom: 1.2em; border-left: 4px solid #e8e8e8; font-style: italic;  }
 .more-articles-content a { color: #fff; }
 .article .articlebody { overflow: visible !important; } 
-	.article .articlebody p img.full { }
-	
-	.article .articlebody p img.two { }
-	.article .articlebody p img.two:nth-child(1) { float: left; }
-	.article .articlebody p img.two:nth-child(2) { float: right; }
-
-	.article .articlebody p img.three { }
-	.article .articlebody p img.three:nth-child(1) { float: left; }
-	.article .articlebody p img.three:nth-child(2) { float: left; }
-	.article .articlebody p img.three:nth-child(3) { float: right; }
 
 	.article .articlebody p { clear: both; }
 
 	.article .articlebody ul { margin-bottom: 1.2em; }
+
+	.article .articlebody p { width: 48.3606557%; margin: 0 auto 2em auto; }
+	.article .articlebody p img.fullimage {  margin-bottom: 2em }			
+	.article .articlebody p img.leftimage { width:48.3606557%; margin-right:3.2786885%; float:left; min-height:1px; overflow:hidden; margin-bottom: 2em }			
+	.article .articlebody p img.rightimage { width:48.3606557%; float:right; min-height:1px; overflow:hidden; margin-bottom: 2em }
+
+	.article .articlebody p.removewidth { width: 100%; }
+
+	.article .articlebody hr:after { clear:both; content:''; display:block; font-size:0; line-height:0; visibility:hidden; width:0; height:0 }
+	.article .articlebody hr	{ border: 0;clear:both; content:''; display:block; font-size:0; line-height:0; visibility:hidden; width:0; height:0 }

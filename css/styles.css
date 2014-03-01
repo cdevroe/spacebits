@@ -88,13 +88,7 @@ hr.endhr								{ margin-top: 4em; margin-bottom: 0; border-top: 1px dotted #c6c
 .col12									{ width:100%;float:left;overflow:hidden }
 
 .end										{ margin-right:0;padding-right:0 }
-.no-bottom-margin				{ margin-bottom: 0 }
-
-
-.para										{ width:48.3606557%; margin: 0 auto }
-.img1										{  margin-bottom: 2em }			
-.img2										{ width:48.3606557%; margin-right:3.2786885%; float:left; min-height:1px; overflow:hidden; margin-bottom: 2em }			
-.img2-end								{ width:48.3606557%; float:right; min-height:1px; overflow:hidden; margin-bottom: 2em }			
+.no-bottom-margin				{ margin-bottom: 0 }		
 
 
 
