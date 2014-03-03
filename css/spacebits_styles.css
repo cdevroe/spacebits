@@ -24,3 +24,5 @@ Author URL: http://spacebits.co
 
 	.article .articlebody hr:after { clear:both; content:''; display:block; font-size:0; line-height:0; visibility:hidden; width:0; height:0 }
 	.article .articlebody hr	{ border: 0;clear:both; content:''; display:block; font-size:0; line-height:0; visibility:hidden; width:0; height:0 }
+
+	.article .articlebody .blogpost_featuredimage { width: 48.3606557%; margin: 0 auto 2em auto; }
