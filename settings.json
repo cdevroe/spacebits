@@ -4,5 +4,6 @@
     "creator_url": "http://spacebits.co",
      "content_types": {
         "blogpost": "Space Bit"
-    }
+    },
+    "blog": "articles"
 }

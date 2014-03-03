@@ -8,29 +8,28 @@
 	
 	<div class="page">
 		<!-- @include _navigation -->
-		<div data-barley="blogpost_masthead" data-barley-editor="advanced">
-			<img src="img/demo-img.jpg" class="main-image" />
-		</div>
+		<!-- repeat:blogpost:1:1 -->
+		%MASTHEAD%
 		<div class="container clearfix">
 			<div class="article clearfix">
 				<div class="col2"></div>
 				<div class="col8 center-text">
-					<h1 class="" data-barley="blogpost_title" data-barley-editor="mini"><a href="" class="black">My Space Bit Title</a></h1>
-					<p class="grey small">Written by <span data-barley="blogpost_author" data-barley-editor="advanced">Colin Devroe or Yaron Schoen</span> <span class="dot">&middot;</span> <span data-barley="blogpost_published_on"></span></p>
+					<h1><a href="%URL%" class="black">%TITLE%</a></h1>
+					<p class="grey small">Written by %AUTHOR% <span class="dot">&middot;</span> %PUBLISHED_ON%</p>
 					<div class="stars-divider"><span class="ss-icon star">star</span> <span class="ss-icon star">star</span> <span class="ss-icon star">star</span></div>
 				</div>
 				<div class="col2 end"></div>
 				<div class="col12 articlebody">
-					<div data-barley="blogpost_body" data-barley-editor="advanced">
-						<p>This is a test blog post to figure out the structure for images, videos, text, links, lists and much more. This is a test blog post to figure out the structure for images, videos, text, links, lists and much more.</p>
-					</div>
+					%EXCERPT%
 				</div>
 			</div>
 		</div>
+		<!-- endrepeat -->
 	</div>
 	
 	<div class="page-more center-text">
 		<div class="container clearfix">
+			<!-- repeat:blogpost:2:2 -->
 			<div class="col4 bottom-margin">
 				<div class="more-articles-image">
 					<div class="featured-image">%MASTHEAD%</div>
@@ -47,6 +46,9 @@
 					</div>				
 				</div>
 			</div>
+			<!-- endrepeat -->
+
+			<!-- repeat:blogpost:1:4 -->
 			<div class="col4 bottom-margin end">
 				<div class="more-articles-image">
 					<div class="featured-image">%MASTHEAD%</div>
@@ -55,6 +57,9 @@
 					</div>				
 				</div>
 			</div>
+			<!-- endrepeat -->
+
+			<!-- repeat:blogpost:2:5 -->
 			<div class="col4 bottom-margin">
 				<div class="more-articles-image">
 					<div class="featured-image">%MASTHEAD%</div>
@@ -71,6 +76,9 @@
 					</div>				
 				</div>
 			</div>
+			<!-- endrepeat -->
+
+			<!-- repeat:blogpost:1:6 -->
 			<div class="col4 bottom-margin end">
 				<div class="more-articles-image">
 					<div class="featured-image">%MASTHEAD%</div>
@@ -79,8 +87,16 @@
 					</div>				
 				</div>
 			</div>
+			<!-- endrepeat -->
+
 			<div class="col12">
-				<a href="" class="ss-icon">left</a> <span class="ss-icon star">star</span> <a href="" class="ss-icon">right</a>
+			<!-- previous -->
+				<a href="#" class="ss-icon">previous</a>
+			<!-- endprevious --> 
+				<span class="ss-icon star">star</span> 
+			<!-- next -->
+				<a href="#" class="ss-icon">next</a>
+			<!-- endnext -->
 			</div>
 		</div>
 	</div>
