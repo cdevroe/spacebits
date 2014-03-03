@@ -27,10 +27,7 @@ Author URL: http://spacebits.co
 
 	.article .articlebody .blogpost_featuredimage { width: 48.3606557%; margin: 0 auto 2em auto; }
 
-.container .col4:nth-child(3n+3) {
-	margin-right:0;
-	padding-right:0;
-}
+	.container .col4:nth-child(3n+3) {	margin-right:0;	padding-right:0; }
 	
 	
 @media screen and (max-width: 700px){
