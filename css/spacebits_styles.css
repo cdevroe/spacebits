@@ -15,7 +15,7 @@ Author URL: http://spacebits.co
 
 	.article .articlebody ul { margin-bottom: 1.2em; }
 
-	.article .articlebody p { width: 48.3606557%; margin: 0 auto 2em auto; }
+	.article .articlebody p, .article .articlebody ul, .article .articlebody h3 { width: 48.3606557%; margin: 0 auto 2em auto; }
 	.article .articlebody p img.fullimage {  margin-bottom: 2em }			
 	.article .articlebody p img.leftimage { width:48.3606557%; margin-right:3.2786885%; float:left; min-height:1px; overflow:hidden; margin-bottom: 2em }			
 	.article .articlebody p img.rightimage { width:48.3606557%; float:right; min-height:1px; overflow:hidden; margin-bottom: 2em }
