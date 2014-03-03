@@ -26,3 +26,15 @@ Author URL: http://spacebits.co
 	.article .articlebody hr	{ border: 0;clear:both; content:''; display:block; font-size:0; line-height:0; visibility:hidden; width:0; height:0 }
 
 	.article .articlebody .blogpost_featuredimage { width: 48.3606557%; margin: 0 auto 2em auto; }
+	
+	
+	@media screen and (max-width: 700px){
+.article .articlebody p, 
+.article .articlebody ul, 
+.article .articlebody h3 { width: 100%; margin: 0 auto 2em auto; }
+.article .articlebody p img.fullimage {  margin-bottom: 1em }		
+.article .articlebody p img.leftimage { width:100%; margin-right:0; float:none; min-height:1px; overflow:hidden; margin-bottom: 1em }			
+.article .articlebody p img.rightimage { width:100%; float:none; min-height:1px; overflow:hidden; margin-bottom: 1em }
+
+
+}
