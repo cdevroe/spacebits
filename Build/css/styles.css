@@ -46,7 +46,7 @@ canvas									{ width: 100%;}
 ---------------------------------------------------------------------------------------------------------- 
 */
 
-body										{ background: #0b0e2f; /* Old browsers */ background: -moz-linear-gradient(top,  #000000 0%, #0b0e2f 19%, #0b0e2f 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(19%,#0b0e2f), color-stop(100%,#0b0e2f)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #000000 0%,#0b0e2f 19%,#0b0e2f 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #000000 0%,#0b0e2f 19%,#0b0e2f 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #000000 0%,#0b0e2f 19%,#0b0e2f 100%); /* IE10+ */ background: linear-gradient(to bottom,  #000000 0%,#0b0e2f 19%,#0b0e2f 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0b0e2f',GradientType=0 ); /* IE6-9 */}
+body										{ background: #0b0e2f; background-image: url(../img/bg-gradient.png); background-repeat: repeat-x}
 .page										{ max-width:1400px; width:92%; margin-left:auto; margin-right:auto; background-color: white}
 .page-more							{ max-width:1400px; width:92%; padding: 4em 0; margin-left:auto; margin-right:auto; background-color: #f7f8fd}
 .page-footer						{ max-width:1400px; width:92%; padding: 4em 0; margin-left:auto; margin-right:auto; background-color: black;}
